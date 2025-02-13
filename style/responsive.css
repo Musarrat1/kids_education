@@ -35,6 +35,34 @@
         align-items: center;
         margin-left: 85px;
     }
+    .story-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 80%;
+     margin-bottom: 30px;
+    }
+    .story-1{
+        grid-row: span 1;
+    }
+    .story-5{
+        display: grid;
+    }
+    .btn-view-all{
+        background-color: black;
+        color: white;
+        border-radius: 12px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    font-size: 20px;
+    }
    
     
    
