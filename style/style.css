@@ -75,12 +75,17 @@
    display: flex;
    
     padding-top: 120px;
-    padding-left: 125px;
-    padding-right: 900px;
+   
+   
     padding-bottom: 170px;
     margin-top: 50px;
     
    
+}
+.story-div-1 img{
+    width: 100%;
+    height: auto;
+    max-width: 540px;
 }
 .grid-footer{
     display: grid;
