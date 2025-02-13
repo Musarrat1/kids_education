@@ -11,15 +11,23 @@
     margin-top: 10px;
     margin-left: 10px;
   }
-.navbar{
-    /*display: flex;*/
-    
-}
+  
+
 .header_section{
+    background-image: none;
     display: flex;
     justify-content: space-between;
     
 }
+.div-line{
+    
+    background-color: orange;
+    border: 4px;
+    border-radius: 20px;
+    padding: auto;
+     
+  }
+  
 .btn-contact{
 
     background-color: orange;
@@ -79,10 +87,7 @@
     margin-top: 30px;
    
 }
-.section{
-    background-image: url('assets/bg.png');
-    background-size: cover;
-}
+
 .header-info{
     font-size: 56px;
     font-weight: bold;
@@ -109,3 +114,85 @@
     margin-right: 20px;
     align-items: center;
 }
+.section-2{
+    background-image: url(bg.png);
+}
+.second-title{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.div-card{
+    
+    border-radius: 17px;
+    background-image: linear-gradient(skyblue,white);
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    padding-bottom: 53px;
+    box-shadow: 1px 1px 1px  rgb(206, 232, 242);
+
+}
+.div-card-1{
+    
+    border-radius: 17px;
+    background-image: linear-gradient(rgb(249, 221, 168),white);
+    padding-left: 40px;
+    padding-right: 40px;
+
+    padding-bottom: 53px;
+    box-shadow: 1px 1px 1px  rgb(246, 230, 201);
+    
+}
+.div-card-2{
+    border: none;
+    border-radius: 17px;
+    background-image: linear-gradient(rgb(234, 186, 234),white);
+    padding-left: 40px;
+    padding-right: 40px;
+ 
+    padding-bottom: 53px;
+    box-shadow: 1px 1px 1px  rgb(245, 200, 245);
+    
+}
+.card-h{
+    font-size: 24px;
+    font-weight: bold;
+   
+    
+
+}
+
+.card-p{
+    padding-top: 10px;
+    
+}
+.read-1{
+  
+    color: skyblue;
+    font-size: 15px;
+    padding-top: 30px;
+ 
+}
+.read-2{
+   
+    color:orange;
+    font-size: 15px;
+    padding-top: 30px;
+   
+}
+.read-3{
+ 
+    color: purple;
+    font-size: 15px;
+    padding-top: 30px;
+ 
+}
+.img-1,.img-2,.img-3{
+    padding-top: 50px;
+
+}
+

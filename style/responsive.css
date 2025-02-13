@@ -1,0 +1,43 @@
+@media screen and (max-width: 500px){
+    .uil--align-justify {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M3 7h18a1 1 0 0 0 0-2H3a1 1 0 0 0 0 2m18 10H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2m0-4H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2m0-4H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2'/%3E%3C/svg%3E");
+        background-color: black;
+        -webkit-mask-image: var(--svg);
+        mask-image: var(--svg);
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+        margin-left: 200px;
+      }
+  
+    .btn-contact{
+        display: none;
+    }
+    .div-nav>a{
+        display: none;
+    }
+    .section-info{
+
+         flex-direction: column-reverse;
+    }
+    .div-all-card{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .header-info , .p-info{
+        text-align: center;
+    }
+    .btn-info{
+        align-items: center;
+        margin-left: 85px;
+    }
+   
+    
+   
+
+    
+}
